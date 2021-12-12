@@ -1,0 +1,125 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html {
+    width: 100%;
+    height: 100%;
+}
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #0d244b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.background {
+    width: 100%;
+    height: 400px;
+    background-color: #f1c50e;
+    position: absolute;
+    z-index: -1000;
+    top: 0px;
+    left: 0px;
+}
+.images-holder {
+    margin-top: 100px;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.image {
+    width: 270px;
+    height: 350px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 0px 20px #00000071;
+}
+.top {
+    margin-bottom: 100px;
+}
+.bottom {
+    margin-top: 100px;
+}
+.cards-holder {
+    margin-top: 70px;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.card {
+    width: 270px;
+    height: 360px;
+    background-color: #f5f7fa;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.circle {
+    width: 90px;
+    height: 90px;
+    background-color: #f1c50e;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second-circle {
+    width: 90px;
+    height: 90px;
+    background-color: #f1c40e41;
+    border-radius: 50%;
+    position: absolute;
+    right: -7px;
+    top: -7px;
+}
+.title {
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.info {
+    text-align: center;
+    width: 230px;
+    color: gray;
+    line-height: 25px;
+    font-style: italic;
+}
+.more {
+    letter-spacing: 2px;
+    color: rgb(109, 109, 109);
+}
+.copyright {
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    bottom: -100px;
+    z-index: -999;
+    display: flex;
+    justify-content: center;
+}
+i {
+    font-size: 45px;
+    z-index: 10000;
+    color: #f5f7fa;
+}
+.cc {
+    color: #5040a7;
+    bottom: 0px;
+    position: absolute;
+}
